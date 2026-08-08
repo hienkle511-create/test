@@ -1,0 +1,29 @@
+{
+  "name": "marriage-budget-app",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Monarch-style shared budgeting app for a married couple. Hand-rolled React-SSR + node:sqlite server standing in for Next.js/Prisma/Postgres/Tailwind/Recharts — see README.md.",
+  "engines": {
+    "node": ">=22.5.0"
+  },
+  "scripts": {
+    "seed": "tsx src/seed.ts",
+    "build": "tsc --noEmit -p tsconfig.json && node scripts/build-client.mjs",
+    "dev": "tsx src/server.tsx",
+    "start": "tsx src/server.tsx",
+    "screenshot": "node scripts/screenshot.cjs"
+  },
+  "dependencies": {
+    "react": "^18.3.0 || ^19.0.0",
+    "react-dom": "^18.3.0 || ^19.0.0",
+    "tsx": "^4.19.0",
+    "esbuild": ">=0.24.0 <1.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.0 || ^6.0.0",
+    "@types/react": "^18.3.0 || ^19.0.0",
+    "@types/react-dom": "^18.3.0 || ^19.0.0",
+    "@types/node": "^22.10.0",
+    "playwright": "^1.48.0"
+  }
+}
