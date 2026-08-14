@@ -1,0 +1,34 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.10.0/schema.json",
+  "name": "38a8f00b6e4286cd285a",
+  "position": {
+    "x": 20,
+    "y": 126,
+    "z": 1023,
+    "width": 195,
+    "height": 34,
+    "tabOrder": 1023
+  },
+  "visual": {
+    "visualType": "card",
+    "query": {
+      "queryState": {
+        "Values": {
+          "projections": [
+            {
+              "field": {
+                "Measure": {
+                  "Expression": { "SourceRef": { "Entity": "Calculations" } },
+                  "Property": "Bottom 20% Days to Final Median"
+                }
+              },
+              "queryRef": "Calculations.Bottom 20% Days to Final Median",
+              "nativeQueryRef": "Bottom 20% Days to Final Median",
+              "active": true
+            }
+          ]
+        }
+      }
+    }
+  }
+}

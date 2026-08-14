@@ -1,0 +1,49 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.10.0/schema.json",
+  "name": "b19630e665581dac7454",
+  "position": {
+    "x": 20,
+    "y": 162,
+    "z": 1026,
+    "width": 195,
+    "height": 50,
+    "tabOrder": 1026
+  },
+  "visual": {
+    "visualType": "lineChart",
+    "query": {
+      "queryState": {
+        "Category": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": { "SourceRef": { "Entity": "Calendar" } },
+                  "Property": "MonthYear"
+                }
+              },
+              "queryRef": "Calendar.MonthYear",
+              "nativeQueryRef": "MonthYear",
+              "active": true
+            }
+          ]
+        },
+        "Y": {
+          "projections": [
+            {
+              "field": {
+                "Measure": {
+                  "Expression": { "SourceRef": { "Entity": "Calculations" } },
+                  "Property": "Days to Final Median"
+                }
+              },
+              "queryRef": "Calculations.Days to Final Median",
+              "nativeQueryRef": "Days to Final Median",
+              "active": true
+            }
+          ]
+        }
+      }
+    }
+  }
+}

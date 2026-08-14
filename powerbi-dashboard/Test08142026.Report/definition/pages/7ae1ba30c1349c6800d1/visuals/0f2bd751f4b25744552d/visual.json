@@ -1,0 +1,33 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.10.0/schema.json",
+  "name": "0f2bd751f4b25744552d",
+  "position": {
+    "x": 20,
+    "y": 108,
+    "z": 1020,
+    "width": 120,
+    "height": 16,
+    "tabOrder": 1020
+  },
+  "visual": {
+    "visualType": "textbox",
+    "objects": {
+      "general": [
+        {
+          "properties": {
+            "paragraphs": [
+              {
+                "textRuns": [
+                  {
+                    "value": "Days to Final",
+                    "textStyle": { "fontWeight": "semibold", "fontSize": "10.5px", "color": "#52697A", "fontFamily": "Segoe UI Semibold" }
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}
