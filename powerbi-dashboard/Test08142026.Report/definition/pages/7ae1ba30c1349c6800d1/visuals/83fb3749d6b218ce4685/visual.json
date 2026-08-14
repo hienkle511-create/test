@@ -1,0 +1,37 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.10.0/schema.json",
+  "name": "83fb3749d6b218ce4685",
+  "position": {
+    "x": 20,
+    "y": 82,
+    "z": 1010,
+    "width": 1100,
+    "height": 22,
+    "tabOrder": 1010
+  },
+  "visual": {
+    "visualType": "textbox",
+    "objects": {
+      "general": [
+        {
+          "properties": {
+            "paragraphs": [
+              {
+                "textRuns": [
+                  {
+                    "value": "Network Average",
+                    "textStyle": { "fontWeight": "bold", "fontSize": "12px", "color": "#0B2A43", "fontFamily": "Segoe UI Semibold" }
+                  },
+                  {
+                    "value": "  ·  All centers.  Pick a center to compare it against these figures, or view the Bottom 20% table below.",
+                    "textStyle": { "fontSize": "12px", "color": "#52697A", "fontFamily": "Segoe UI" }
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

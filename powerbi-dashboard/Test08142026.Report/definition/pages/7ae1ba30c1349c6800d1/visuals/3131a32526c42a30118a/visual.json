@@ -1,0 +1,37 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.10.0/schema.json",
+  "name": "3131a32526c42a30118a",
+  "position": {
+    "x": 20,
+    "y": 82,
+    "z": 1012,
+    "width": 1100,
+    "height": 22,
+    "tabOrder": 1012
+  },
+  "visual": {
+    "visualType": "textbox",
+    "objects": {
+      "general": [
+        {
+          "properties": {
+            "paragraphs": [
+              {
+                "textRuns": [
+                  {
+                    "value": "Bottom 20% Overview",
+                    "textStyle": { "fontWeight": "bold", "fontSize": "12px", "color": "#C0392B", "fontFamily": "Segoe UI Semibold" }
+                  },
+                  {
+                    "value": "  ·  Lowest-ranked centers by Overall Ranking (this range).  Average figures across the centers listed in the table below.",
+                    "textStyle": { "fontSize": "12px", "color": "#52697A", "fontFamily": "Segoe UI" }
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

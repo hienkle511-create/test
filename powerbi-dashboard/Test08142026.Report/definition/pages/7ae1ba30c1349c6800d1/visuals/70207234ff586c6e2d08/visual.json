@@ -1,0 +1,37 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.10.0/schema.json",
+  "name": "70207234ff586c6e2d08",
+  "position": {
+    "x": 20,
+    "y": 82,
+    "z": 1011,
+    "width": 1100,
+    "height": 22,
+    "tabOrder": 1011
+  },
+  "visual": {
+    "visualType": "textbox",
+    "objects": {
+      "general": [
+        {
+          "properties": {
+            "paragraphs": [
+              {
+                "textRuns": [
+                  {
+                    "value": "Top 20% Overview",
+                    "textStyle": { "fontWeight": "bold", "fontSize": "12px", "color": "#0B2A43", "fontFamily": "Segoe UI Semibold" }
+                  },
+                  {
+                    "value": "  ·  Top-ranked centers by Overall Ranking (this range).  Average figures across the range's top-ranked centers.",
+                    "textStyle": { "fontSize": "12px", "color": "#52697A", "fontFamily": "Segoe UI" }
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

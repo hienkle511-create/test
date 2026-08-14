@@ -1,0 +1,37 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.10.0/schema.json",
+  "name": "a3bf3c12faa48ab16b1d",
+  "position": {
+    "x": 20,
+    "y": 82,
+    "z": 1013,
+    "width": 1100,
+    "height": 22,
+    "tabOrder": 1013
+  },
+  "visual": {
+    "visualType": "textbox",
+    "objects": {
+      "general": [
+        {
+          "properties": {
+            "paragraphs": [
+              {
+                "textRuns": [
+                  {
+                    "value": "Division View",
+                    "textStyle": { "fontWeight": "bold", "fontSize": "12px", "color": "#00A0B0", "fontFamily": "Segoe UI Semibold" }
+                  },
+                  {
+                    "value": "  ·  Filtered to the selected division.  Centers in this division are highlighted in the table below; others are grayed out.",
+                    "textStyle": { "fontSize": "12px", "color": "#52697A", "fontFamily": "Segoe UI" }
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

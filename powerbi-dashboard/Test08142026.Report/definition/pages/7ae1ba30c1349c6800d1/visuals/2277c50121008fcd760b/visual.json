@@ -1,0 +1,37 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.10.0/schema.json",
+  "name": "2277c50121008fcd760b",
+  "position": {
+    "x": 20,
+    "y": 82,
+    "z": 1014,
+    "width": 1100,
+    "height": 22,
+    "tabOrder": 1014
+  },
+  "visual": {
+    "visualType": "textbox",
+    "objects": {
+      "general": [
+        {
+          "properties": {
+            "paragraphs": [
+              {
+                "textRuns": [
+                  {
+                    "value": "Center Detail",
+                    "textStyle": { "fontWeight": "bold", "fontSize": "12px", "color": "#0B2A43", "fontFamily": "Segoe UI Semibold" }
+                  },
+                  {
+                    "value": "  ·  Solid line = center  ·  dashed line = network average.",
+                    "textStyle": { "fontSize": "12px", "color": "#52697A", "fontFamily": "Segoe UI" }
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}
