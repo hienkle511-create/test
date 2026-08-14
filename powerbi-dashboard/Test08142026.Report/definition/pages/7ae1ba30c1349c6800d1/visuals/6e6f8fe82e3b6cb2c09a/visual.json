@@ -1,0 +1,51 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.0.0/schema.json",
+  "name": "6e6f8fe82e3b6cb2c09a",
+  "position": {
+    "x": 985,
+    "y": 44,
+    "z": 1009,
+    "width": 180,
+    "height": 32,
+    "tabOrder": 1009
+  },
+  "visual": {
+    "visualType": "slicer",
+    "query": {
+      "queryState": {
+        "Values": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": { "SourceRef": { "Entity": "Center" } },
+                  "Property": "Center"
+                }
+              },
+              "queryRef": "Center.Center",
+              "nativeQueryRef": "Center"
+            }
+          ]
+        }
+      }
+    },
+    "objects": {
+      "general": [
+        {
+          "properties": {
+            "orientation": {
+              "expr": { "Literal": { "Value": "'Horizontal'" } }
+            }
+          }
+        }
+      ],
+      "search": [
+        {
+          "properties": {
+            "enabled": { "expr": { "Literal": { "Value": "true" } } }
+          }
+        }
+      ]
+    }
+  }
+}

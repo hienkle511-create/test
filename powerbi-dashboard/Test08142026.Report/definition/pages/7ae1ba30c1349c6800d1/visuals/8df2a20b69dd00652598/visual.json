@@ -1,0 +1,24 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.0.0/schema.json",
+  "name": "8df2a20b69dd00652598",
+  "position": {
+    "x": 645,
+    "y": 44,
+    "z": 1006,
+    "width": 105,
+    "height": 32,
+    "tabOrder": 1006
+  },
+  "visual": {
+    "visualType": "actionButton",
+    "objects": {
+      "text": [
+        {
+          "properties": {
+            "text": { "expr": { "Literal": { "Value": "'Central-West'" } } }
+          }
+        }
+      ]
+    }
+  }
+}

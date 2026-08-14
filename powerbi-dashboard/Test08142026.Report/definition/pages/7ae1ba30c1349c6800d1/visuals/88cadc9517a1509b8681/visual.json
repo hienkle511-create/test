@@ -1,0 +1,44 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.0.0/schema.json",
+  "name": "88cadc9517a1509b8681",
+  "position": {
+    "x": 20,
+    "y": 44,
+    "z": 1002,
+    "width": 260,
+    "height": 40,
+    "tabOrder": 1002
+  },
+  "visual": {
+    "visualType": "slicer",
+    "query": {
+      "queryState": {
+        "Values": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": { "SourceRef": { "Entity": "Calendar" } },
+                  "Property": "actualdate"
+                }
+              },
+              "queryRef": "Calendar.actualdate",
+              "nativeQueryRef": "actualdate"
+            }
+          ]
+        }
+      }
+    },
+    "objects": {
+      "general": [
+        {
+          "properties": {
+            "orientation": {
+              "expr": { "Literal": { "Value": "'Horizontal'" } }
+            }
+          }
+        }
+      ]
+    }
+  }
+}

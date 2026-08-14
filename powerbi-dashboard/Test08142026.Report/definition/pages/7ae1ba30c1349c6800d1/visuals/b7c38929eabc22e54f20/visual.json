@@ -1,0 +1,24 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.0.0/schema.json",
+  "name": "b7c38929eabc22e54f20",
+  "position": {
+    "x": 290,
+    "y": 44,
+    "z": 1003,
+    "width": 85,
+    "height": 32,
+    "tabOrder": 1003
+  },
+  "visual": {
+    "visualType": "actionButton",
+    "objects": {
+      "text": [
+        {
+          "properties": {
+            "text": { "expr": { "Literal": { "Value": "'Top 20%'" } } }
+          }
+        }
+      ]
+    }
+  }
+}
