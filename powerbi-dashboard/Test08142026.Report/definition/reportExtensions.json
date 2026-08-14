@@ -96,7 +96,7 @@
           }
         },
         {
-          "name": "Top 20% Prosth Exam to Surgery Days Median",
+          "name": "Tier 20% Prosth Exam to Surgery Days Median",
           "dataType": "Double",
           "expression": "\nVAR TotalCenters =\n   CALCULATE ( COUNTROWS ( Center ), REMOVEFILTERS ( Center ), NOT ISBLANK ( [Overall Ranking] ) )\nVAR GroupSize =\n   ROUNDUP ( TotalCenters * 0.2, 0 )\nVAR TopCenters =\n   TOPN ( GroupSize, ALL ( Center ), [Overall Ranking], ASC )\nRETURN\n   AVERAGEX ( TopCenters, [Prosth Exam to Surgery Days Median] )",
           "formatString": "General Number",
@@ -111,7 +111,7 @@
           }
         },
         {
-          "name": "Top 20% SRPC",
+          "name": "Tier 20% SRPC",
           "dataType": "Double",
           "expression": "\nVAR TotalCenters =\n   CALCULATE ( COUNTROWS ( Center ), REMOVEFILTERS ( Center ), NOT ISBLANK ( [Overall Ranking] ) )\nVAR GroupSize =\n   ROUNDUP ( TotalCenters * 0.2, 0 )\nVAR TopCenters =\n   TOPN ( GroupSize, ALL ( Center ), [Overall Ranking], ASC )\nRETURN\n   AVERAGEX ( TopCenters, [SRPC] )",
           "formatString": "General Number",
