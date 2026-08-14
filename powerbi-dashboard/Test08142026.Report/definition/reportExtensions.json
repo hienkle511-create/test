@@ -8,7 +8,7 @@
         {
           "name": "Bottom 20% Days to Final Median",
           "dataType": "Double",
-          "expression": "\nVAR TotalCenters =\n   CALCULATE ( COUNTROWS ( Center ), REMOVEFILTERS ( Center ), NOT ISBLANK ( [Overall Ranking] ) )\nVAR GroupSize =\n   ROUNDUP ( TotalCenters * 0.2, 0 )\nVAR BottomCenters =\n   TOPN ( GroupSize, ALL ( Center ), [Overall Ranking], DESC )\nRETURN\n   AVERAGEX ( BottomCenters, [Days to Final Median] )",
+          "expression": "\nVAR TotalCenters =\n   COUNTROWS ( FILTER ( ALL ( Center ), NOT ISBLANK ( [Overall Ranking] ) ) )\nVAR GroupSize =\n   ROUNDUP ( TotalCenters * 0.2, 0 )\nVAR BottomCenters =\n   TOPN ( GroupSize, ALL ( Center ), [Overall Ranking], DESC )\nRETURN\n   AVERAGEX ( BottomCenters, [Days to Final Median] )",
           "references": {
             "unrecognizedReferences": true,
             "measures": [
@@ -26,7 +26,7 @@
         {
           "name": "Bottom 20% Prosth Exam to Surgery Days Median",
           "dataType": "Double",
-          "expression": "\nVAR TotalCenters =\n   CALCULATE ( COUNTROWS ( Center ), REMOVEFILTERS ( Center ), NOT ISBLANK ( [Overall Ranking] ) )\nVAR GroupSize =\n   ROUNDUP ( TotalCenters * 0.2, 0 )\nVAR BottomCenters =\n   TOPN ( GroupSize, ALL ( Center ), [Overall Ranking], DESC )\nRETURN\n   AVERAGEX ( BottomCenters, [Prosth Exam to Surgery Days Median] )",
+          "expression": "\nVAR TotalCenters =\n   COUNTROWS ( FILTER ( ALL ( Center ), NOT ISBLANK ( [Overall Ranking] ) ) )\nVAR GroupSize =\n   ROUNDUP ( TotalCenters * 0.2, 0 )\nVAR BottomCenters =\n   TOPN ( GroupSize, ALL ( Center ), [Overall Ranking], DESC )\nRETURN\n   AVERAGEX ( BottomCenters, [Prosth Exam to Surgery Days Median] )",
           "references": {
             "unrecognizedReferences": true,
             "measures": [
@@ -44,7 +44,7 @@
         {
           "name": "Bottom 20% Arches Cut per Surgery Day",
           "dataType": "Double",
-          "expression": "\nVAR TotalCenters =\n   CALCULATE ( COUNTROWS ( Center ), REMOVEFILTERS ( Center ), NOT ISBLANK ( [Overall Ranking] ) )\nVAR GroupSize =\n   ROUNDUP ( TotalCenters * 0.2, 0 )\nVAR BottomCenters =\n   TOPN ( GroupSize, ALL ( Center ), [Overall Ranking], DESC )\nRETURN\n   AVERAGEX ( BottomCenters, [Arches Cut per Surgery Day] )",
+          "expression": "\nVAR TotalCenters =\n   COUNTROWS ( FILTER ( ALL ( Center ), NOT ISBLANK ( [Overall Ranking] ) ) )\nVAR GroupSize =\n   ROUNDUP ( TotalCenters * 0.2, 0 )\nVAR BottomCenters =\n   TOPN ( GroupSize, ALL ( Center ), [Overall Ranking], DESC )\nRETURN\n   AVERAGEX ( BottomCenters, [Arches Cut per Surgery Day] )",
           "references": {
             "unrecognizedReferences": true,
             "measures": [
@@ -62,7 +62,7 @@
         {
           "name": "Bottom 20% % of Days Open",
           "dataType": "Double",
-          "expression": "\nVAR TotalCenters =\n   CALCULATE ( COUNTROWS ( Center ), REMOVEFILTERS ( Center ), NOT ISBLANK ( [Overall Ranking] ) )\nVAR GroupSize =\n   ROUNDUP ( TotalCenters * 0.2, 0 )\nVAR BottomCenters =\n   TOPN ( GroupSize, ALL ( Center ), [Overall Ranking], DESC )\nRETURN\n   AVERAGEX ( BottomCenters, [% of Days Open] )",
+          "expression": "\nVAR TotalCenters =\n   COUNTROWS ( FILTER ( ALL ( Center ), NOT ISBLANK ( [Overall Ranking] ) ) )\nVAR GroupSize =\n   ROUNDUP ( TotalCenters * 0.2, 0 )\nVAR BottomCenters =\n   TOPN ( GroupSize, ALL ( Center ), [Overall Ranking], DESC )\nRETURN\n   AVERAGEX ( BottomCenters, [% of Days Open] )",
           "references": {
             "unrecognizedReferences": true,
             "measures": [
@@ -80,7 +80,7 @@
         {
           "name": "Bottom 20% Days Open Baseline Inventory",
           "dataType": "Double",
-          "expression": "\nVAR TotalCenters =\n   CALCULATE ( COUNTROWS ( Center ), REMOVEFILTERS ( Center ), NOT ISBLANK ( [Overall Ranking] ) )\nVAR GroupSize =\n   ROUNDUP ( TotalCenters * 0.2, 0 )\nVAR BottomCenters =\n   TOPN ( GroupSize, ALL ( Center ), [Overall Ranking], DESC )\nRETURN\n   AVERAGEX ( BottomCenters, [Days Open Baseline Inventory] )",
+          "expression": "\nVAR TotalCenters =\n   COUNTROWS ( FILTER ( ALL ( Center ), NOT ISBLANK ( [Overall Ranking] ) ) )\nVAR GroupSize =\n   ROUNDUP ( TotalCenters * 0.2, 0 )\nVAR BottomCenters =\n   TOPN ( GroupSize, ALL ( Center ), [Overall Ranking], DESC )\nRETURN\n   AVERAGEX ( BottomCenters, [Days Open Baseline Inventory] )",
           "references": {
             "unrecognizedReferences": true,
             "measures": [
@@ -98,7 +98,7 @@
         {
           "name": "Bottom 20% SRPC",
           "dataType": "Double",
-          "expression": "\nVAR TotalCenters =\n   CALCULATE ( COUNTROWS ( Center ), REMOVEFILTERS ( Center ), NOT ISBLANK ( [Overall Ranking] ) )\nVAR GroupSize =\n   ROUNDUP ( TotalCenters * 0.2, 0 )\nVAR BottomCenters =\n   TOPN ( GroupSize, ALL ( Center ), [Overall Ranking], DESC )\nRETURN\n   AVERAGEX ( BottomCenters, [SRPC] )",
+          "expression": "\nVAR TotalCenters =\n   COUNTROWS ( FILTER ( ALL ( Center ), NOT ISBLANK ( [Overall Ranking] ) ) )\nVAR GroupSize =\n   ROUNDUP ( TotalCenters * 0.2, 0 )\nVAR BottomCenters =\n   TOPN ( GroupSize, ALL ( Center ), [Overall Ranking], DESC )\nRETURN\n   AVERAGEX ( BottomCenters, [SRPC] )",
           "references": {
             "unrecognizedReferences": true,
             "measures": [
@@ -116,7 +116,7 @@
         {
           "name": "Tier 20% Prosth Exam to Surgery Days Median",
           "dataType": "Double",
-          "expression": "\nVAR TotalCenters =\n   CALCULATE ( COUNTROWS ( Center ), REMOVEFILTERS ( Center ), NOT ISBLANK ( [Overall Ranking] ) )\nVAR GroupSize =\n   ROUNDUP ( TotalCenters * 0.2, 0 )\nVAR TopCenters =\n   TOPN ( GroupSize, ALL ( Center ), [Overall Ranking], ASC )\nRETURN\n   AVERAGEX ( TopCenters, [Prosth Exam to Surgery Days Median] )",
+          "expression": "\nVAR TotalCenters =\n   COUNTROWS ( FILTER ( ALL ( Center ), NOT ISBLANK ( [Overall Ranking] ) ) )\nVAR GroupSize =\n   ROUNDUP ( TotalCenters * 0.2, 0 )\nVAR TopCenters =\n   TOPN ( GroupSize, ALL ( Center ), [Overall Ranking], ASC )\nRETURN\n   AVERAGEX ( TopCenters, [Prosth Exam to Surgery Days Median] )",
           "references": {
             "unrecognizedReferences": true,
             "measures": [
@@ -134,7 +134,7 @@
         {
           "name": "Tier 20% SRPC",
           "dataType": "Double",
-          "expression": "\nVAR TotalCenters =\n   CALCULATE ( COUNTROWS ( Center ), REMOVEFILTERS ( Center ), NOT ISBLANK ( [Overall Ranking] ) )\nVAR GroupSize =\n   ROUNDUP ( TotalCenters * 0.2, 0 )\nVAR TopCenters =\n   TOPN ( GroupSize, ALL ( Center ), [Overall Ranking], ASC )\nRETURN\n   AVERAGEX ( TopCenters, [SRPC] )",
+          "expression": "\nVAR TotalCenters =\n   COUNTROWS ( FILTER ( ALL ( Center ), NOT ISBLANK ( [Overall Ranking] ) ) )\nVAR GroupSize =\n   ROUNDUP ( TotalCenters * 0.2, 0 )\nVAR TopCenters =\n   TOPN ( GroupSize, ALL ( Center ), [Overall Ranking], ASC )\nRETURN\n   AVERAGEX ( TopCenters, [SRPC] )",
           "references": {
             "unrecognizedReferences": true,
             "measures": [
