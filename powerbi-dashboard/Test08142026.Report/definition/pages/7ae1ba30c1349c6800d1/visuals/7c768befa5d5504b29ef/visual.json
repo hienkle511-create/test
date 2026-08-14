@@ -12,9 +12,17 @@
   "visual": {
     "visualType": "actionButton",
     "objects": {
+      "icon": [
+        {
+          "properties": {
+            "show": { "expr": { "Literal": { "Value": "false" } } }
+          }
+        }
+      ],
       "text": [
         {
           "properties": {
+            "show": { "expr": { "Literal": { "Value": "true" } } },
             "text": { "expr": { "Literal": { "Value": "'Northern'" } } }
           }
         }
