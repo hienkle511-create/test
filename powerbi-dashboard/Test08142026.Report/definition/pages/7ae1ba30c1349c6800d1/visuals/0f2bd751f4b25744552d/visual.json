@@ -20,7 +20,12 @@
                 "textRuns": [
                   {
                     "value": "Days to Final",
-                    "textStyle": { "fontWeight": "semibold", "fontSize": "10.5px", "color": "#52697A", "fontFamily": "Segoe UI Semibold" }
+                    "textStyle": {
+                      "fontWeight": "semibold",
+                      "fontSize": "10.5px",
+                      "color": "#52697A",
+                      "fontFamily": "Segoe UI Semibold"
+                    }
                   }
                 ]
               }

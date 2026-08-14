@@ -2,11 +2,11 @@
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.10.0/schema.json",
   "name": "2277c50121008fcd760b",
   "position": {
-    "x": 20,
-    "y": 82,
+    "x": 19.718309859154932,
+    "y": 81.690140845070431,
     "z": 1014,
+    "height": 26.056338028169016,
     "width": 1100,
-    "height": 22,
     "tabOrder": 1014
   },
   "visual": {
@@ -20,11 +20,20 @@
                 "textRuns": [
                   {
                     "value": "Center Detail",
-                    "textStyle": { "fontWeight": "bold", "fontSize": "12px", "color": "#0B2A43", "fontFamily": "Segoe UI Semibold" }
+                    "textStyle": {
+                      "fontWeight": "bold",
+                      "fontFamily": "Segoe UI Semibold",
+                      "fontSize": "12px",
+                      "color": "#0b2a43"
+                    }
                   },
                   {
                     "value": "  ·  Solid line = center  ·  dashed line = network average.",
-                    "textStyle": { "fontSize": "12px", "color": "#52697A", "fontFamily": "Segoe UI" }
+                    "textStyle": {
+                      "fontFamily": "Segoe UI",
+                      "fontSize": "12px",
+                      "color": "#52697a"
+                    }
                   }
                 ]
               }

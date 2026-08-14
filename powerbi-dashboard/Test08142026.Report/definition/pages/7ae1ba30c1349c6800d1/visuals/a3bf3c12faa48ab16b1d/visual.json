@@ -20,11 +20,20 @@
                 "textRuns": [
                   {
                     "value": "Division View",
-                    "textStyle": { "fontWeight": "bold", "fontSize": "12px", "color": "#00A0B0", "fontFamily": "Segoe UI Semibold" }
+                    "textStyle": {
+                      "fontWeight": "bold",
+                      "fontSize": "12px",
+                      "color": "#00A0B0",
+                      "fontFamily": "Segoe UI Semibold"
+                    }
                   },
                   {
                     "value": "  ·  Filtered to the selected division.  Centers in this division are highlighted in the table below; others are grayed out.",
-                    "textStyle": { "fontSize": "12px", "color": "#52697A", "fontFamily": "Segoe UI" }
+                    "textStyle": {
+                      "fontSize": "12px",
+                      "color": "#52697A",
+                      "fontFamily": "Segoe UI"
+                    }
                   }
                 ]
               }

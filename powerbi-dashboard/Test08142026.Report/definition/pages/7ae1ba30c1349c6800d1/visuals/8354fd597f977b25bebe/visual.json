@@ -18,7 +18,11 @@
             {
               "field": {
                 "Measure": {
-                  "Expression": { "SourceRef": { "Entity": "Calculations" } },
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Calculations"
+                    }
+                  },
                   "Property": "Tier 20% Days to Final Median"
                 }
               },
@@ -34,14 +38,26 @@
       "labels": [
         {
           "properties": {
-            "fontSize": { "expr": { "Literal": { "Value": "9D" } } }
+            "fontSize": {
+              "expr": {
+                "Literal": {
+                  "Value": "9D"
+                }
+              }
+            }
           }
         }
       ],
       "categoryLabels": [
         {
           "properties": {
-            "fontSize": { "expr": { "Literal": { "Value": "8D" } } }
+            "fontSize": {
+              "expr": {
+                "Literal": {
+                  "Value": "8D"
+                }
+              }
+            }
           }
         }
       ]
