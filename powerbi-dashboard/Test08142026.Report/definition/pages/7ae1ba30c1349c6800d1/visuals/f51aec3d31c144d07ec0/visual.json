@@ -1,0 +1,38 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.0.0/schema.json",
+  "name": "f51aec3d31c144d07ec0",
+  "position": {
+    "x": 20,
+    "y": 8,
+    "z": 1000,
+    "width": 480,
+    "height": 34,
+    "tabOrder": 1000
+  },
+  "visual": {
+    "visualType": "textbox",
+    "objects": {
+      "general": [
+        {
+          "properties": {
+            "paragraphs": [
+              {
+                "textRuns": [
+                  {
+                    "value": "Doctor Center-Level Controllables Dashboard",
+                    "textStyle": {
+                      "fontWeight": "bold",
+                      "fontSize": "19px",
+                      "color": "#0B2A43",
+                      "fontFamily": "Segoe UI Semibold"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

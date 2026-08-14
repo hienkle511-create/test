@@ -1,0 +1,38 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.0.0/schema.json",
+  "name": "3b23039232e71750dd74",
+  "position": {
+    "x": 1090,
+    "y": 8,
+    "z": 1001,
+    "width": 170,
+    "height": 44,
+    "tabOrder": 1001
+  },
+  "visual": {
+    "visualType": "textbox",
+    "objects": {
+      "general": [
+        {
+          "properties": {
+            "paragraphs": [
+              {
+                "horizontalTextAlignment": "center",
+                "textRuns": [
+                  {
+                    "value": "[ ClearChoice logo — replace this box with the logo image ]",
+                    "textStyle": {
+                      "fontSize": "9px",
+                      "color": "#8398A6",
+                      "fontFamily": "Segoe UI"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}
