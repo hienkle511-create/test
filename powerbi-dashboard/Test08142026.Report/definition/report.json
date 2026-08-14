@@ -53,7 +53,7 @@
       "items": [
         {
           "name": "ClearChoiceTheme",
-          "path": "RegisteredResources/ClearChoiceTheme.json",
+          "path": "ClearChoiceTheme",
           "type": "CustomTheme"
         }
       ]
