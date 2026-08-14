@@ -15,6 +15,10 @@
               {
                 "entity": "Calculations",
                 "name": "Days to Final Median"
+              },
+              {
+                "entity": "Calculations",
+                "name": "Overall Ranking"
               }
             ]
           }
@@ -29,6 +33,10 @@
               {
                 "entity": "Calculations",
                 "name": "Prosth Exam to Surgery Days Median"
+              },
+              {
+                "entity": "Calculations",
+                "name": "Overall Ranking"
               }
             ]
           }
@@ -43,6 +51,10 @@
               {
                 "entity": "Calculations",
                 "name": "Arches Cut per Surgery Day"
+              },
+              {
+                "entity": "Calculations",
+                "name": "Overall Ranking"
               }
             ]
           }
@@ -57,6 +69,10 @@
               {
                 "entity": "Calculations",
                 "name": "% of Days Open"
+              },
+              {
+                "entity": "Calculations",
+                "name": "Overall Ranking"
               }
             ]
           }
@@ -71,6 +87,10 @@
               {
                 "entity": "Calculations",
                 "name": "Days Open Baseline Inventory"
+              },
+              {
+                "entity": "Calculations",
+                "name": "Overall Ranking"
               }
             ]
           }
@@ -85,6 +105,10 @@
               {
                 "entity": "Calculations",
                 "name": "SRPC"
+              },
+              {
+                "entity": "Calculations",
+                "name": "Overall Ranking"
               }
             ]
           }
@@ -99,6 +123,10 @@
               {
                 "entity": "Calculations",
                 "name": "Prosth Exam to Surgery Days Median"
+              },
+              {
+                "entity": "Calculations",
+                "name": "Overall Ranking"
               }
             ]
           }
@@ -113,6 +141,10 @@
               {
                 "entity": "Calculations",
                 "name": "SRPC"
+              },
+              {
+                "entity": "Calculations",
+                "name": "Overall Ranking"
               }
             ]
           }
